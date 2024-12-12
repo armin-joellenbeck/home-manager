@@ -28,6 +28,10 @@
     };
   };
 
+  programs.vim = {
+    enable = true;
+  };
+
   home.file = {
     # ".screenrc".source = dotfiles/screenrc;
 
