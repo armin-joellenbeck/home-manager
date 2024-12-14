@@ -9,10 +9,6 @@
 
   home.packages = [
     pkgs.hello
-
-    (pkgs.writeShellScriptBin "my-hello" ''
-      echo "Hello, ${config.home.username}!"
-    '')
   ];
 
   programs.gh = {
@@ -30,15 +26,6 @@
 
   programs.vim = {
     enable = true;
-  };
-
-  home.file = {
-    # ".screenrc".source = dotfiles/screenrc;
-
-    # ".gradle/gradle.properties".text = ''
-    #   org.gradle.console=verbose
-    #   org.gradle.daemon.idletimeout=3600000
-    # '';
   };
 
   home.sessionVariables = {
