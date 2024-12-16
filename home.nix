@@ -11,6 +11,13 @@
     pkgs.hello
   ];
 
+  nixpkgs = {
+    config = {
+      allowUnfree = true;
+      allowUnfreePredicate = (_: true);
+    };
+  };
+  
   programs.gh = {
     enable = true;
   };
@@ -27,6 +34,10 @@
   programs.vim = {
     enable = true;
     packageConfigurable = pkgs.vim;
+  };
+
+  programs.vscode = {
+    enable = true;
   };
 
   home.sessionVariables = {
