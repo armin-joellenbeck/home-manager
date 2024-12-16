@@ -9,6 +9,7 @@
 
   home.packages = [
     pkgs.hello
+    pkgs.tldr
   ];
 
   nixpkgs = {
