@@ -16,8 +16,33 @@ Then open a new console.
 
 There is now a clone of this repository.
 
-## Update base system (TODO)
+## Update base system
+To update the debian base system execute:
+```
+sudo apt update
+sudo apt upgrade
+```
 
-## Update nix package manager (TODO)
+## Update nix package manager
+To update `nix` and its companions execute:
+```
+nix-channel --update
+nix-env --install --attr nixpkgs.nix nixpkgs.cacert
+sudo systemctl daemon-reload
+sudo systemctl restart nix-daemon
+```
 
-## Update home-manager configuration (TODO)
+## Update home-manager
+To update `home-manager` itself execute:
+```
+nix-channel --update
+home-manager switch
+```
+
+## Update home-manager configuration
+To change the configuration edit the file `home-manager/home.nix` and related files.
+
+Then execute:
+```
+home-manager switch
+```
