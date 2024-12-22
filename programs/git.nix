@@ -3,10 +3,33 @@
 {
   programs.git = {
     enable = true;
+    
     extraConfig = {
-      user.name = "Armin Jöllenbeck";
-      user.email = "armin@joellenbeck.net";
-      init.defaultBranch = "main";
+      advice = {
+	skippedCherryPicks = false;
+      };
+
+      core = {
+        editor = "vi";
+      };
+
+      fetch = {
+	prune = true;
+	pruneTags = true;
+      };
+      
+      init = {
+        defaultBranch = "main";
+      };
+
+      push = {
+	autoSetupRemote = true;
+      };
+ 
+      user = {
+        name = "Armin Jöllenbck";
+        email = "armin@joellenbeck.net";
+      };
     };
   };
 }
