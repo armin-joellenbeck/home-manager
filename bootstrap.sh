@@ -2,6 +2,9 @@
 # the tool home-manager into a fresh installed crostini linux development
 # environment.
 
+# Link to Downloads directory
+ln -sf /mnt/chromeos/GoogleDrive/MyDrive/Downloads/ $HOME
+
 # Upgrade debian packages
 sudo apt update
 sudo apt upgrade --yes
