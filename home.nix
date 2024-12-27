@@ -7,6 +7,8 @@
   home.username = "ajoellenbeck";
   home.homeDirectory = "/home/ajoellenbeck";
 
+  home.language.base ="en_US.UTF-8";
+
   nixpkgs = {
     config = {
       allowUnfree = true;
