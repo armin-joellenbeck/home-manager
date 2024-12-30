@@ -6,6 +6,5 @@
     ./gh.nix
     ./git.nix
     ./vim.nix
-    ./vscode.nix
   ];
 }
