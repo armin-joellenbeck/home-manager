@@ -6,6 +6,7 @@
     ./bash.nix
     ./gh.nix
     ./git.nix
+    ./micro.nix
     ./vim.nix
   ];
 }
