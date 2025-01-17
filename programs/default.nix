@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./bacon.nix
     ./bash.nix
     ./gh.nix
     ./git.nix
