@@ -1,8 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  programs.micro = {
+  programs.zed-editor = {
     enable = true;
-    };
   };
 }

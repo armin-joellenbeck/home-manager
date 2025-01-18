@@ -8,5 +8,6 @@
     ./git.nix
     ./micro.nix
     ./vim.nix
+    ./zed-editor.nix
   ];
 }
