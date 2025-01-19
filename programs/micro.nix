@@ -3,6 +3,5 @@
 {
   programs.micro = {
     enable = true;
-    };
   };
 }
