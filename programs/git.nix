@@ -6,16 +6,16 @@
     
     extraConfig = {
       advice = {
-	skippedCherryPicks = false;
+		skippedCherryPicks = false;
       };
 
       core = {
-        editor = "vi";
+        editor = "micro";
       };
 
       fetch = {
-	prune = true;
-	pruneTags = true;
+		prune = true;
+		pruneTags = true;
       };
       
       init = {
@@ -23,7 +23,7 @@
       };
 
       push = {
-	autoSetupRemote = true;
+		autoSetupRemote = true;
       };
  
       user = {
