@@ -27,7 +27,7 @@
       };
  
       user = {
-        name = "Armin Jöllenbck";
+        name = "Armin Jöllenbeck";
         email = "armin@joellenbeck.net";
       };
     };
