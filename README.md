@@ -1,5 +1,6 @@
 # My home-manager configuration for Linux on ChromeOS
 
+
 ## Bootstrap a new Linux develop environment
 
 Install the Linux development environment on ChromeOS,
