@@ -23,6 +23,7 @@ sudo debfoster --quiet
 
 # Ćleańup files from eventually previous install of nix
 sudo rm -f /etc/bash.bashrc.backup-before-nix
+sudo rm -rf /nix
 
 # Install nix
 curl -L https://nixos.org/nix/install | sh -s -- --daemon
