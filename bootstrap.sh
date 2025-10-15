@@ -50,7 +50,7 @@ rm -rf $HOME/.config/home-manager
 ln -sr $HOME/home-manager $HOME/.config
 
 # Apply home-manager config
-home-manager switch
+home-manager switch -b backup
 
 # Authenticate against GitHub
 gh auth login --hostname github.com --git-protocol https --web
