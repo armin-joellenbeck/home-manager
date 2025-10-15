@@ -25,6 +25,7 @@ sudo debfoster --quiet
 sudo rm -f /etc/bash.bashrc.backup-before-nix
 sudo rm -f /etc/bashrc.backup-before-nix
 sudo rm -f /etc/profile.d/nix.sh.backup-before-nix
+sudo rm -f /etc/zshrc.backup-before-nix
 sudo rm -rf /nix
 
 # Install nix
