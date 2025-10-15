@@ -2,6 +2,8 @@
 # the tool home-manager into a fresh installed crostini linux development
 # environment.
 
+set -e -x
+
 # Link to Downloads directory
 ln -sf /mnt/chromeos/GoogleDrive/MyDrive/Downloads/ $HOME
 
