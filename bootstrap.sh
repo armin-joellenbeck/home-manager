@@ -45,6 +45,8 @@ nix-shell '<home-manager>' -A install
 # Test invocation of home-manager
 home-manager --version
 
+exit
+
 # Download content of repository as $HOME/home-manager
 rm -rf $HOME/home-manager-main
 curl -L github.com/armin-joellenbeck/home-manager/archive/master.tar.gz \
